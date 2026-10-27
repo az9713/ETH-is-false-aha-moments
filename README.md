@@ -1,8 +1,8 @@
-# Beyond exponential search
+# ETH is false — Aha moments
 
-**[Read the live dark-mode tutorial](https://az9713.github.io/exponential-time-hypothesis-is-false/)** · **[Jump to the Aha trail](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-guide)** · [Print edition](tutorial/evidence/tutorial-print.pdf)
+**[Read the live dark-mode tutorial](https://az9713.github.io/ETH-is-false-aha-moments/)** · **[Jump to the Aha trail](https://az9713.github.io/ETH-is-false-aha-moments/#aha-guide)** · [Print edition](tutorial/evidence/tutorial-print.pdf)
 
-[![Preview of the live dark-mode tutorial](assets/preview.png)](https://az9713.github.io/exponential-time-hypothesis-is-false/)
+[![Preview of the live dark-mode tutorial](assets/preview.png)](https://az9713.github.io/ETH-is-false-aha-moments/)
 
 Click the preview to open the live GitHub Pages site. GitHub README pages display
 this linked preview; the HTML itself runs on GitHub Pages.
@@ -19,18 +19,18 @@ Eight diagrams and step-through views make the abstract arguments visible.
 They start paused, provide keyboard controls, respect reduced motion, and have
 static SVG fallbacks. On a phone, wide diagrams scroll within their panels.
 
-[![The running CNF shown as a logic circuit](assets/circuit-preview.png)](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-circuit)
+[![The running CNF shown as a logic circuit](assets/circuit-preview.png)](https://az9713.github.io/ETH-is-false-aha-moments/#visual-circuit)
 
 | Visual | What it explains |
 |---|---|
-| [CNF logic circuit](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-circuit) | Bits pass through literals, OR clauses, and the final AND. All eight assignments reproduce the truth table. |
-| [Effective exponent rates](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-growth) | A smaller positive exponential rate differs from a rate that tends to zero. |
-| [Shared summaries](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-summaries) | Fixing an interface separates local choices without losing their multiplicities. |
-| [Hermite recovery](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-hermite) | Value and slope can leave ambiguity; enough Taylor data determine the missing target value. |
-| [Spectral window](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-spectral) | Widening the interpolation interval reduces exceptional directions at the cost of polynomial degree. |
-| [Greedy parity filtering](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-parity) | Compare total survivor counts to remove false positives without knowing the true count. |
-| [Tensor network and recursion budget](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-tensor) | Equality tables preserve variable identity; the separate recursion bound has geometrically shrinking exponent costs. |
-| [Why the claimed result refutes ETH](https://az9713.github.io/exponential-time-hypothesis-is-false/#visual-refutation) | Connect a counter for every 3-CNF, exactness, complete cost accounting, and positivity to the contradiction with ETH. Research proof obligations are explicitly marked. |
+| [CNF logic circuit](https://az9713.github.io/ETH-is-false-aha-moments/#visual-circuit) | Bits pass through literals, OR clauses, and the final AND. All eight assignments reproduce the truth table. |
+| [Effective exponent rates](https://az9713.github.io/ETH-is-false-aha-moments/#visual-growth) | A smaller positive exponential rate differs from a rate that tends to zero. |
+| [Shared summaries](https://az9713.github.io/ETH-is-false-aha-moments/#visual-summaries) | Fixing an interface separates local choices without losing their multiplicities. |
+| [Hermite recovery](https://az9713.github.io/ETH-is-false-aha-moments/#visual-hermite) | Value and slope can leave ambiguity; enough Taylor data determine the missing target value. |
+| [Spectral window](https://az9713.github.io/ETH-is-false-aha-moments/#visual-spectral) | Widening the interpolation interval reduces exceptional directions at the cost of polynomial degree. |
+| [Greedy parity filtering](https://az9713.github.io/ETH-is-false-aha-moments/#visual-parity) | Compare total survivor counts to remove false positives without knowing the true count. |
+| [Tensor network and recursion budget](https://az9713.github.io/ETH-is-false-aha-moments/#visual-tensor) | Equality tables preserve variable identity; the separate recursion bound has geometrically shrinking exponent costs. |
+| [Why the claimed result refutes ETH](https://az9713.github.io/ETH-is-false-aha-moments/#visual-refutation) | Connect a counter for every 3-CNF, exactness, complete cost accounting, and positivity to the contradiction with ETH. Research proof obligations are explicitly marked. |
 
 These are checked finite teaching constructions and labeled proof diagrams,
 not a reproduction or benchmark of the research algorithm. Plot geometry uses
@@ -43,22 +43,22 @@ Each link opens the exact highlighted passage in the live tutorial.
 
 | Moment | What becomes clear |
 |---|---|
-| [1. Candidates are not a lower bound](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-candidates) | Having 2ⁿ possible assignments does not prove every algorithm must visit them. |
-| [2. Polynomial reductions can destroy the saving](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-blowup) | A subexponential SAT algorithm need not give a subexponential algorithm for every NP problem. |
-| [3. ETH false does not settle P versus NP](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-barrier) | Removing an exponential barrier establishes neither a polynomial upper bound nor a superpolynomial lower bound. |
-| [4. Count without listing](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-count) | The exact number of solutions needs at most n + 1 output bits, even when there are exponentially many solutions. |
-| [5. Separate through a small interface](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-separation) | Fixing bounded shared measurements makes transformed groups factor into smaller sums. |
-| [6. Taylor order limits the corrections](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-taylor) | Low-order information can be recovered using only small correction subsets and exact cancellation. |
-| [7. One polynomial serves two constraints](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-matrix) | Spectral concentration and low-degree interpolation make locality compatible with few measurements. |
-| [8. The qualitative refutation appears earlier](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-enough) | Section 2.8 removes the special-input restrictions with a weaker bound that is already subexponential. |
-| [9. Counting constructs the filter](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-greedy) | A sparse-system counter chooses parity tests without knowing the true satisfying-assignment count. |
-| [10. Divisibility and recursion sharpen the bound](https://az9713.github.io/exponential-time-hypothesis-is-false/#aha-tensor) | High-weight interactions vanish modulo the working precision; remaining contractions shrink. |
+| [1. Candidates are not a lower bound](https://az9713.github.io/ETH-is-false-aha-moments/#aha-candidates) | Having 2ⁿ possible assignments does not prove every algorithm must visit them. |
+| [2. Polynomial reductions can destroy the saving](https://az9713.github.io/ETH-is-false-aha-moments/#aha-blowup) | A subexponential SAT algorithm need not give a subexponential algorithm for every NP problem. |
+| [3. ETH false does not settle P versus NP](https://az9713.github.io/ETH-is-false-aha-moments/#aha-barrier) | Removing an exponential barrier establishes neither a polynomial upper bound nor a superpolynomial lower bound. |
+| [4. Count without listing](https://az9713.github.io/ETH-is-false-aha-moments/#aha-count) | The exact number of solutions needs at most n + 1 output bits, even when there are exponentially many solutions. |
+| [5. Separate through a small interface](https://az9713.github.io/ETH-is-false-aha-moments/#aha-separation) | Fixing bounded shared measurements makes transformed groups factor into smaller sums. |
+| [6. Taylor order limits the corrections](https://az9713.github.io/ETH-is-false-aha-moments/#aha-taylor) | Low-order information can be recovered using only small correction subsets and exact cancellation. |
+| [7. One polynomial serves two constraints](https://az9713.github.io/ETH-is-false-aha-moments/#aha-matrix) | Spectral concentration and low-degree interpolation make locality compatible with few measurements. |
+| [8. The qualitative refutation appears earlier](https://az9713.github.io/ETH-is-false-aha-moments/#aha-enough) | Section 2.8 removes the special-input restrictions with a weaker bound that is already subexponential. |
+| [9. Counting constructs the filter](https://az9713.github.io/ETH-is-false-aha-moments/#aha-greedy) | A sparse-system counter chooses parity tests without knowing the true satisfying-assignment count. |
+| [10. Divisibility and recursion sharpen the bound](https://az9713.github.io/ETH-is-false-aha-moments/#aha-tensor) | High-weight interactions vanish modulo the working precision; remaining contractions shrink. |
 
 For precise theorem, equation, and page locators, use the
-**[annotated paper map](https://az9713.github.io/exponential-time-hypothesis-is-false/#paper-map)**.
-The **[three-cost ledger](https://az9713.github.io/exponential-time-hypothesis-is-false/#three-costs)**
+**[annotated paper map](https://az9713.github.io/ETH-is-false-aha-moments/#paper-map)**.
+The **[three-cost ledger](https://az9713.github.io/ETH-is-false-aha-moments/#three-costs)**
 shows where the claimed running time becomes subexponential; the
-**[refutation chain](https://az9713.github.io/exponential-time-hypothesis-is-false/#refutation-chain)**
+**[refutation chain](https://az9713.github.io/ETH-is-false-aha-moments/#refutation-chain)**
 shows why that guarantee would contradict ETH.
 
 ## Sources
@@ -97,7 +97,7 @@ shows why that guarantee would contradict ETH.
 - **Wes Roth** — [YouTube video](https://www.youtube.com/watch?v=3Edjn34IuzQ).
   The supplied transcript provides the initial motivation and analogies.
   The tutorial includes a
-  [timestamped correction ledger](https://az9713.github.io/exponential-time-hypothesis-is-false/#transcript-corrections)
+  [timestamped correction ledger](https://az9713.github.io/ETH-is-false-aha-moments/#transcript-corrections)
   for distinctions that the commentary compresses or gets wrong.
 
 The video labels identify their creators and links, rather than claiming

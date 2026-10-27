@@ -68,7 +68,7 @@ def main():
                           "source_dependencies": ["S01", "S02", "S03", "S04", "S05", "S06", "V02", "V07"],
                           "sha256": hashlib.sha256(p.read_bytes()).hexdigest()})
     write("artifact-manifest.json", {"artifacts": artifacts,
-                                    "site": "https://az9713.github.io/exponential-time-hypothesis-is-false/",
+                                    "site": "https://az9713.github.io/ETH-is-false-aha-moments/",
                                     "excluded": ["all *.txt", "original source PDFs and screenshot", "local editorial drafts and diagnostic screenshots"]})
     print(f"Prepared public manifests for {len(PUBLIC)} files; every *.txt excluded.")
 

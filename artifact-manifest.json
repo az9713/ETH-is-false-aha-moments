@@ -62,7 +62,7 @@
         "V02",
         "V07"
       ],
-      "sha256": "63382a2962599db6fdff6b4b9ef762cca7b61f77a9745d7fe73aace24c26589b"
+      "sha256": "7334f8897a3a2807419c84c6257ebe25e542cceacd71081dd59e794c3d5dfbc4"
     },
     {
       "path": "index.html",
@@ -78,7 +78,7 @@
         "V02",
         "V07"
       ],
-      "sha256": "f03889d40e36f7c30850513145056883aa569fbb1628847a2c5ba5850a1e6642"
+      "sha256": "21aa5cb179629b45b4440262d93bbed8e7ddf481c56ecdacb954b16a91473147"
     },
     {
       "path": "analysis-ir.json",
@@ -334,7 +334,7 @@
         "V02",
         "V07"
       ],
-      "sha256": "aed330ec15b4cdf172233a47f310596ca7d042b6f4f199e738a72ba1d3171dd5"
+      "sha256": "a43af57258b739095da0b187e8806715e8d80b3b5f1c57ff2952b76de447a557"
     },
     {
       "path": "tutorial/vendor/d3.js",
@@ -462,10 +462,10 @@
         "V02",
         "V07"
       ],
-      "sha256": "97699dc886c5c42c5ccbb7ad22d7a0e17cfc4e8caf77bd7828c5fc11d6a6cb68"
+      "sha256": "309abc31ee0b4799d2599bab758a60e1a53c91466b800b532b82f7ae3d20eee9"
     }
   ],
-  "site": "https://az9713.github.io/exponential-time-hypothesis-is-false/",
+  "site": "https://az9713.github.io/ETH-is-false-aha-moments/",
   "excluded": [
     "all *.txt",
     "original source PDFs and screenshot",
