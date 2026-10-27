@@ -1,0 +1,31 @@
+{
+  "offline": true,
+  "static_ids": 89,
+  "source_words": 13994,
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "math_expressions": 716,
+      "math_errors": 0,
+      "page_overflow": false,
+      "solutions": 18,
+      "keyboard_disclosure": "passed",
+      "fragment_navigation": "passed"
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "math_expressions": 716,
+      "math_errors": 0,
+      "page_overflow": false,
+      "solutions": 18,
+      "keyboard_disclosure": "passed",
+      "fragment_navigation": "passed"
+    }
+  ],
+  "print_display_equation_overflows": 0,
+  "print_pdf": "tutorial/evidence/tutorial-print.pdf",
+  "page_errors": [],
+  "remote_requests": []
+}

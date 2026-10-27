@@ -1,0 +1,117 @@
+{
+  "truth_table": [
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  ],
+  "solution_count": 2,
+  "summary_fiber_sizes": {
+    "0": 1,
+    "1": 2,
+    "2": 1
+  },
+  "Cq_n5_q2": 51,
+  "constant_base_exponent_1_3": 0.3785116232537299,
+  "recursion_ratio": 0.1767766952966369,
+  "recursion_geometric_sum": 1.214737233854593,
+  "growth_log2": [
+    {
+      "n": 16,
+      "n_cubed": 12.0,
+      "two_sqrt_n": 4.0,
+      "one_point_three_n": 6.056185972059678,
+      "two_n": 16
+    },
+    {
+      "n": 64,
+      "n_cubed": 18.0,
+      "two_sqrt_n": 8.0,
+      "one_point_three_n": 24.224743888238713,
+      "two_n": 64
+    },
+    {
+      "n": 256,
+      "n_cubed": 24.0,
+      "two_sqrt_n": 16.0,
+      "one_point_three_n": 96.89897555295485,
+      "two_n": 256
+    },
+    {
+      "n": 1024,
+      "n_cubed": 30.0,
+      "two_sqrt_n": 32.0,
+      "one_point_three_n": 387.5959022118194,
+      "two_n": 1024
+    }
+  ],
+  "scope": "Teaching identities only; no ETH algorithm reproduced."
+}

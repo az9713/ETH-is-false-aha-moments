@@ -1,0 +1,22 @@
+# User instruction: never commit any text transcripts or other .txt files.
+*.txt
+
+# Original source representations stay local; cite their public originals.
+/paper.pdf
+/pnp.pdf
+/ETH.png
+
+# Local extraction, drafting, reviews, and diagnostic screenshots.
+/tutorial/PLAN.md
+/tutorial/visual-plan.md
+/tutorial/build_metadata.py
+/tutorial/evidence/editor-review.md
+/tutorial/evidence/visual-editor-review.md
+/tutorial/evidence/validation.md
+/tutorial/evidence/*.png
+__pycache__/
+*.pyc
+*.bak
+.DS_Store
+Thumbs.db
+/.publication-check/

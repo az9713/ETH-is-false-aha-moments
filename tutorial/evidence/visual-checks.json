@@ -1,0 +1,52 @@
+{
+  "state_counts": {
+    "circuit": 8,
+    "growth": 4,
+    "summaries": 3,
+    "hermite": 4,
+    "spectral": 3,
+    "parity": 4,
+    "tensor": 3,
+    "refutation": 5
+  },
+  "checked_states": 34,
+  "bounds": [
+    {
+      "widget": "circuit",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "growth",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "summaries",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "hermite",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "spectral",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "parity",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "tensor",
+      "out_of_bounds": 0
+    },
+    {
+      "widget": "refutation",
+      "out_of_bounds": 0
+    }
+  ],
+  "page_errors": [],
+  "remote_requests": [],
+  "mobile_page_overflow": false,
+  "keyboard_and_play_controls": "passed",
+  "reduced_motion": "respected by native animation guard"
+}

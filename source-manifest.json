@@ -1,0 +1,212 @@
+{
+  "prepared": "2026-10-27",
+  "boundary": "Five original local inputs and subsequently supplied Samuel transcript; raw inputs excluded from publication",
+  "sources": [
+    {
+      "id": "S01",
+      "input": "paper.pdf",
+      "canonical_locator": "paper.pdf",
+      "role": "Primary research manuscript",
+      "status": "read",
+      "bytes": 887884,
+      "sha256": "5b1612dc2eebb2cad5b4cbe62d1fed2982f01ab1908c26f70010a651487e8123",
+      "retrieved": "supplied locally; inspected 2026-10-27",
+      "representation": "pdf",
+      "coverage": {
+        "identity": "full",
+        "textual": "full",
+        "visual": "partial",
+        "audio": "not-applicable",
+        "verification": "partial",
+        "citation": "page-addressable"
+      },
+      "pages": 67,
+      "extraction": "PyMuPDF page-addressed embedded text",
+      "published_representation": false
+    },
+    {
+      "id": "S02",
+      "input": "pnp.pdf",
+      "canonical_locator": "pnp.pdf",
+      "role": "Historical theoretical survey",
+      "status": "read",
+      "bytes": 967990,
+      "sha256": "3bae39c4ebd51e8f036e0b06f63cd79ab9e0d5058eb62b5f139f6b6d5b13e695",
+      "retrieved": "supplied locally; inspected 2026-10-27",
+      "representation": "pdf",
+      "coverage": {
+        "identity": "full",
+        "textual": "full",
+        "visual": "not-performed",
+        "audio": "not-applicable",
+        "verification": "partial",
+        "citation": "page-addressable"
+      },
+      "pages": 122,
+      "extraction": "PyMuPDF page-addressed embedded text",
+      "published_representation": false
+    },
+    {
+      "id": "S03",
+      "input": "transcript.txt",
+      "canonical_locator": "transcript.txt",
+      "role": "Commentary transcript",
+      "status": "read",
+      "bytes": 40676,
+      "sha256": "4b3d06d6bb323a51e20ac8d77477be6e31303f68298c9f813f6346c68d4f1cf9",
+      "retrieved": "supplied locally; inspected 2026-10-27",
+      "representation": "txt",
+      "coverage": {
+        "identity": "full",
+        "textual": "full",
+        "visual": "not-performed",
+        "audio": "not-performed",
+        "verification": "partial",
+        "citation": "timestamp-addressable"
+      },
+      "published_representation": false
+    },
+    {
+      "id": "S04",
+      "input": "ETH.png",
+      "canonical_locator": "ETH.png",
+      "role": "Announcement screenshot",
+      "status": "read",
+      "bytes": 115307,
+      "sha256": "c2b63dbeddd78cd072b17b032ce7d4b390caa623ca20997b8d2cb10fcb85add7",
+      "retrieved": "supplied locally; inspected 2026-10-27",
+      "representation": "png",
+      "coverage": {
+        "identity": "full",
+        "textual": "not-applicable",
+        "visual": "full",
+        "audio": "not-applicable",
+        "verification": "partial"
+      },
+      "extraction": "Direct visual inspection",
+      "published_representation": false
+    },
+    {
+      "id": "S05",
+      "input": "README.txt",
+      "canonical_locator": "README.txt",
+      "role": "Empty file",
+      "status": "empty",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved": "supplied locally; inspected 2026-10-27",
+      "representation": "txt",
+      "coverage": {
+        "identity": "full",
+        "textual": "not-applicable"
+      },
+      "published_representation": false
+    },
+    {
+      "id": "V01",
+      "input": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "status": "inspected",
+      "purpose": "Official announcement and release process",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": null,
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V02",
+      "input": "https://github.com/openai/math/blob/main/lean/docs/378.md",
+      "status": "inspected",
+      "purpose": "Formalization scope",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": "223bbe187394bffca8a2c7ba1656538bfba26e3b",
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V03",
+      "input": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/SubexponentialSAT.lean",
+      "status": "inspected",
+      "purpose": "Comparator target definitions and statement; not proof certification",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": "a8d5ff3a3e80323675b1f2d1ea611560b783e9ca",
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V04",
+      "input": "https://github.com/openai/math/blob/main/lean/ComparatorChallenges/SubexponentialSAT.json",
+      "status": "inspected",
+      "purpose": "Separate solution module and permitted axioms",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": "d4cc9e7074e900c1aa6371151cfd234c121a0b82",
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V05",
+      "input": "https://github.com/openai/math/blob/main/lean/OAI/Algorithms/SubexponentialSAT/Main.lean",
+      "status": "inspected",
+      "purpose": "Solution imports, not full dependency verification",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": "607d4b32d307a43046405499822c83d293043cfd",
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V06",
+      "input": "https://raw.githubusercontent.com/openai/math/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "status": "inspected",
+      "purpose": "Remote PDF bytes matched S01 SHA-256",
+      "retrieved": "2026-10-27",
+      "git_blob_sha": null,
+      "coverage": {
+        "identity": "full",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "S06",
+      "input": "transcript_samuel.txt",
+      "status": "read",
+      "role": "Samuel Allen Alexander commentary transcript",
+      "canonical_locator": "https://www.youtube.com/watch?v=ZbxC0412cys",
+      "bytes": 39291,
+      "sha256": "b79fa1d3794ee94c0da0b677f7a0ef770d390562bd3b501773accd2d3fadbb0f",
+      "published_representation": false,
+      "coverage": {
+        "textual": "full",
+        "audio": "not-performed",
+        "visual": "not-performed",
+        "citation": "timestamp-addressable",
+        "verification": "partial"
+      }
+    },
+    {
+      "id": "V07",
+      "input": "https://github.com/az9713/animate-libs",
+      "status": "inspected",
+      "role": "Animation toolkit and vendored D3 bundle",
+      "git_blob_sha": "93ab9daf94ecd8dd7788c1bdb00140045df6ff14",
+      "coverage": {
+        "textual": "full for README and library inventory",
+        "verification": "bundle inspected and used"
+      }
+    }
+  ],
+  "limits": [
+    "No full video audiovisual review",
+    "No full Lean build or dependency audit",
+    "No practical solver reproduction",
+    "No publication authorization inferred"
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "artifacts": [
+    {
+      "path": ".gitattributes",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "ced447a891638bf2cc804146c15fd5b0d6f511be94c9d2369e4be0e6d8abf09e"
+    },
+    {
+      "path": ".gitignore",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "9ba4ac8915aa0d7019d151286eb87ecfd93074446c9b8dfeef82ebf400cef7a8"
+    },
+    {
+      "path": ".nojekyll",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "63382a2962599db6fdff6b4b9ef762cca7b61f77a9745d7fe73aace24c26589b"
+    },
+    {
+      "path": "index.html",
+      "primary": true,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "f03889d40e36f7c30850513145056883aa569fbb1628847a2c5ba5850a1e6642"
+    },
+    {
+      "path": "analysis-ir.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "dde8be58a60a359e7d2e8484db8b128aac7bbe52cf97b07e371bd1a8182e8045"
+    },
+    {
+      "path": "source-manifest.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "b571259a41686d23d62f3150904845016bcbb61ea2d8da184bd8ed92d854d482"
+    },
+    {
+      "path": "assets/preview.png",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "4e20f877571cbc831bf4c9525913579416599c32ffc2f3796c39a3fb53635108"
+    },
+    {
+      "path": "assets/circuit-preview.png",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "5f199f42fc942bea8c9f9ced155c394deca6c8e69816d75cf592eed6ef8e6de5"
+    },
+    {
+      "path": "tutorial/style.css",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "dbf74804b8fab8acd42a34072a37beb135eb5e276003d5861a9c8d86cd8bf3b1"
+    },
+    {
+      "path": "tutorial/reader.js",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "46e5c88f50321b5d56ea14e1a6386284e71b84de931031d03e12f2dad8197f25"
+    },
+    {
+      "path": "tutorial/mathjax-tex-svg.js",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882"
+    },
+    {
+      "path": "tutorial/mathjax-LICENSE",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "tutorial/check_examples.py",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "78374826304cd53b2b86bae494f6575c080e1175a548b590f007472279d31e95"
+    },
+    {
+      "path": "tutorial/verify_reader.py",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "84d66c5247923bc5d9aff1a3da736ef94b01c2a61ab5b794b33ed7ada12458d7"
+    },
+    {
+      "path": "tutorial/visuals.js",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "16a4ea54d0ebbb97430081ff67f1596db60c2382238ba438c573379b5db8683b"
+    },
+    {
+      "path": "tutorial/visual-data.js",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "e8d65459a00c25348b5559ecae935c7b7bfee6c994d84e8e8ced5742292b4695"
+    },
+    {
+      "path": "tutorial/visual-data.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "4d65be6a361f5ea21328c375c68a54fa26d6bd53bb135dbc5154e476293ae824"
+    },
+    {
+      "path": "tutorial/build_visual_data.py",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "29d6308bef77dd65d9495ad0714a4431b754b333a4c57273d1961bf2bb1b149c"
+    },
+    {
+      "path": "tutorial/verify_visuals.py",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "7c04ef41951332028c8006b562c0efbfc94a35328f5f50476c533d62a7f14601"
+    },
+    {
+      "path": "tutorial/prepare_publication.py",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "aed330ec15b4cdf172233a47f310596ca7d042b6f4f199e738a72ba1d3171dd5"
+    },
+    {
+      "path": "tutorial/vendor/d3.js",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "856c40d8d4f055dd6daca2120538cdfec476d28894b04e0db9ebb88080714ea2"
+    },
+    {
+      "path": "tutorial/vendor/D3-LICENSES.md",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "f369b5360b71f1b4e93973e5689a853e072b5af58ac796cd0b366f3c08c7936e"
+    },
+    {
+      "path": "tutorial/evidence/source-notes.md",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "d35fa4db1ba689d2bc3749477c7db275acb93114fd26e9614e64da28ef5bf292"
+    },
+    {
+      "path": "tutorial/evidence/aaronson-reading.md",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "0629dd0beaa277555cb7760e49ac040d88008479904cdd4d21d6a63aaf065b4d"
+    },
+    {
+      "path": "tutorial/evidence/example-results.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "832e6f7b8a992330184608a092319259fadb9e485c528ee7c70165e683aa3dbd"
+    },
+    {
+      "path": "tutorial/evidence/browser-checks.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "82f7375da355c997d4030105fadc21a5fd434d69d9eb5963ed1dd51d0072c437"
+    },
+    {
+      "path": "tutorial/evidence/visual-checks.json",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "40a0019b79de5eeb0aed192556ec6de891071bc5eec9026ba136717505c4ebe9"
+    },
+    {
+      "path": "tutorial/evidence/tutorial-print.pdf",
+      "primary": false,
+      "purpose": "Published tutorial, supporting assets, provenance, or reproducible checks",
+      "source_dependencies": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "V02",
+        "V07"
+      ],
+      "sha256": "97699dc886c5c42c5ccbb7ad22d7a0e17cfc4e8caf77bd7828c5fc11d6a6cb68"
+    }
+  ],
+  "site": "https://az9713.github.io/exponential-time-hypothesis-is-false/",
+  "excluded": [
+    "all *.txt",
+    "original source PDFs and screenshot",
+    "local editorial drafts and diagnostic screenshots"
+  ]
+}

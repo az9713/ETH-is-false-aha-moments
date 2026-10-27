@@ -1,0 +1,191 @@
+{
+  "prepared": "2026-10-27",
+  "reader": "Some Big O familiarity; no prior complexity theory",
+  "scope": "Theoretical onboarding; learner experiments deferred",
+  "evidence_classes": {
+    "definition": "A stated mathematical convention",
+    "proved-here": "Elementary argument developed in tutorial",
+    "checked-example": "Finite teaching identity checked with exact arithmetic",
+    "source-theorem": "Research theorem cited, not independently certified",
+    "reported-status": "Attributed statement by publisher or repository",
+    "synthesis": "Original explanation or analogy with boundaries"
+  },
+  "claims": [
+    {
+      "id": "C01",
+      "text": "Exact counting decides satisfiability by testing positivity",
+      "class": "proved-here",
+      "anchor": "search-count",
+      "sources": [
+        "S01:p1-2",
+        "S02:p21"
+      ]
+    },
+    {
+      "id": "C02",
+      "text": "Exponents n(log log n)^a/sqrt(log n) are o(n) for fixed a",
+      "class": "proved-here",
+      "anchor": "subexp-proof",
+      "sources": []
+    },
+    {
+      "id": "C03",
+      "text": "Fixed-width general counting guarantee in revised Theorem 1.1",
+      "class": "source-theorem",
+      "anchor": "bounds-table",
+      "sources": [
+        "S01:p2",
+        "S01:p53-64"
+      ]
+    },
+    {
+      "id": "C04",
+      "text": "A deterministic general 3-SAT 2^o(n) algorithm contradicts ETH",
+      "class": "proved-here",
+      "anchor": "refutation-chain",
+      "depends_on": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "sources": [
+        "S01:p4",
+        "S02:p31"
+      ]
+    },
+    {
+      "id": "C05",
+      "text": "Conditioning on bounded shared measurements separates algebraic factors",
+      "class": "proved-here",
+      "anchor": "summaries",
+      "sources": [
+        "S01:eq2.6:p10",
+        "S01:Lemma3.2:p22-23"
+      ]
+    },
+    {
+      "id": "C06",
+      "text": "Taylor order bounds correction-variable degree and subset reconstruction costs",
+      "class": "proved-here",
+      "anchor": "taylor-obstacle",
+      "sources": [
+        "S01:p11-12",
+        "S01:Lemma3.3:p24"
+      ]
+    },
+    {
+      "id": "C07",
+      "text": "Swap-matrix interpolation yields low-degree localized replacements plus few measurements",
+      "class": "source-theorem",
+      "anchor": "spectral",
+      "sources": [
+        "S01:p15-18",
+        "S01:Lemmas4.1-4.8:p28-35"
+      ]
+    },
+    {
+      "id": "C08",
+      "text": "Sparsification/copying removes special-input restriction with weaker subexponential exponent",
+      "class": "source-theorem",
+      "anchor": "sparsification",
+      "sources": [
+        "S01:Sec2.8:p18-19"
+      ]
+    },
+    {
+      "id": "C09",
+      "text": "Sparse-system counter chooses parity checks by minimizing total common-zero counts",
+      "class": "source-theorem",
+      "anchor": "greedy",
+      "sources": [
+        "S01:Lemma6.2:p42"
+      ]
+    },
+    {
+      "id": "C10",
+      "text": "Global even-factor truncation keeps the product input degree linear",
+      "class": "proved-here",
+      "anchor": "degree-truncation",
+      "sources": [
+        "S01:Lemmas5.1-5.2:p36-37"
+      ]
+    },
+    {
+      "id": "C11",
+      "text": "Tapered Hermite recovery plus weighted modes and shrinking networks give sharper contraction bound",
+      "class": "source-theorem",
+      "anchor": "tensor-hinge",
+      "sources": [
+        "S01:LemmaD.5:p60-61",
+        "S01:eqD.14-D.16:p62-63",
+        "S01:p64"
+      ]
+    },
+    {
+      "id": "C12",
+      "text": "Repository formalization scope covers squared loglog exponent, not sharpest revised exponent",
+      "class": "reported-status",
+      "anchor": "bounds-table",
+      "sources": [
+        "V02"
+      ]
+    },
+    {
+      "id": "C13",
+      "text": "Comparator challenge is target with placeholder; configuration points to separate solution",
+      "class": "reported-status",
+      "anchor": "lean",
+      "sources": [
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "C14",
+      "text": "Refuting ETH alone settles neither direction of P versus NP",
+      "class": "proved-here",
+      "anchor": "aha-barrier",
+      "sources": [
+        "S02:p31"
+      ]
+    },
+    {
+      "id": "C15",
+      "text": "Transcript attribution conflicts with Aaronson's supplied survey stance",
+      "class": "reported-status",
+      "anchor": "transcript-corrections",
+      "sources": [
+        "S03:02:14",
+        "S02:p1",
+        "S02:p24-26"
+      ]
+    }
+  ],
+  "dependency_spine": [
+    "Boolean constraints",
+    "asymptotic growth",
+    "verifiers and reductions",
+    "ETH",
+    "count polynomials",
+    "shared summaries",
+    "Taylor reconstruction",
+    "low-degree construction",
+    "general-input reduction",
+    "tensor improvement",
+    "verification limits"
+  ],
+  "teaching_checks": "tutorial/evidence/example-results.json",
+  "research_verification_limits": [
+    "No Lean compile/comparator execution",
+    "No complete dependency/axiom audit",
+    "No practical solver reproduction",
+    "No assertion of completed community certification"
+  ],
+  "visual_teaching_constructions": {
+    "data": "tutorial/visual-data.json",
+    "generator": "tutorial/build_visual_data.py",
+    "checks": "tutorial/evidence/visual-checks.json",
+    "limits": "Finite teaching examples; no implementation or benchmark of the research solver"
+  }
+}
